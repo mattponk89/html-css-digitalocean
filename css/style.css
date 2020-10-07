@@ -1,0 +1,34 @@
+
+.jumbotron{ /* fix navbar fixed top */
+  margin-top: 100px;
+}
+
+
+
+/* selezione slide sezione designed */
+
+[class*='slide_']{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border: 1px solid blue;
+  border-radius: 50%;
+}
+[class*='slide_'].active_slide{
+  background-color: blue;
+}
+[class*='slide_']:hover{
+  background-color: blue;
+}
+/* classi debug */
+
+.debug [class*='col-'] {
+  border: 1px solid black;
+  height: 100px;
+}
+.debug .container{
+  border: 1px solid green;
+}
+.debug #my_deploy>.container{
+  height: 400px;
+}
