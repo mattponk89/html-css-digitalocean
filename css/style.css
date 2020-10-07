@@ -1,6 +1,39 @@
 
+/* regole per la navbar */
+
+.navbar{
+  height: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  color: #031c4e;
+}
+
+header .navbar .logo_navbar{
+  height: 30px;
+}
+header .navbar a:not(.my_button){
+  display: inline-block;
+  padding: 0 1rem;
+  line-height: 30px;
+  color: #031c4e;
+}
+header .navbar li{
+  display: inline-block;
+}
+
+/* fine regole per la navbar */
+
+/* regole per i button */
+
+.my_button{
+  color: #046fff;
+  border: 1px solid #046fff;
+}
+
+
 .jumbotron{ /* fix navbar fixed top */
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 
@@ -20,6 +53,9 @@
 [class*='slide_']:hover{
   background-color: blue;
 }
+
+/* fine selezione slide sezione designed */
+
 /* classi debug */
 
 .debug [class*='col-'] {
@@ -32,3 +68,5 @@
 .debug #my_deploy>.container{
   height: 400px;
 }
+
+/* fine classi debug */
