@@ -22,7 +22,37 @@ header .navbar li{
   display: inline-block;
 }
 
+
 /* fine regole per la navbar */
+
+/* regole jumbotron */
+
+.jumbotron{ /* fix navbar fixed top */
+  margin-top: 60px;
+  background-image: url(../img/bg-home-cta.svg);
+  background-size: cover;
+}
+.jumbotron .my_form{
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px 10px;
+}
+.jumbotron .my_form input{
+ line-height: 3rem;
+ border: 1px solid lightgrey;
+ border-radius: 5px;
+}
+.jumbotron .my_form *{
+  width: 100%;
+  margin: 5px 0;
+}
+
+.jumbotron .term_service{
+  font-size: 1.1rem;
+}
+/*  fine regole jumbotron */
+
+
 
 /* regole per i button */
 
@@ -30,13 +60,20 @@ header .navbar li{
   color: #046fff;
   border: 1px solid #046fff;
 }
-
-
-.jumbotron{ /* fix navbar fixed top */
-  margin-top: 60px;
+.my_button_create_account{
+  background-color: #046fff;
+  color: white;
+}
+.my_form .my_button_signin_google{
+  background-color: white;
+  color: black;
+  border-left: 0;
+  border-top: 0;
+  border-right: 1px solid darkgrey;
+  border-bottom: 1px solid darkgrey;
 }
 
-
+/*  fine regole per i button */
 
 /* selezione slide sezione designed */
 
@@ -55,6 +92,19 @@ header .navbar li{
 }
 
 /* fine selezione slide sezione designed */
+
+/* regole helper */
+
+.text_white {
+  color:white;
+}
+.color-primary{
+  color: #031c4e;
+}
+.color-secondary{
+  color: #046fff;
+}
+/* fine regole helper */
 
 /* classi debug */
 
