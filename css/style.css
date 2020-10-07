@@ -1,3 +1,6 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
 
 /* regole per la navbar */
 
@@ -31,6 +34,7 @@ header .navbar li{
   margin-top: 60px;
   background-image: url(../img/bg-home-cta.svg);
   background-size: cover;
+  margin-bottom: 0;
 }
 .jumbotron .my_form{
   background-color: white;
@@ -50,13 +54,75 @@ header .navbar li{
 .jumbotron .term_service{
   font-size: 1.1rem;
 }
+
 /*  fine regole jumbotron */
 
+/* regole sezione dei partner */
 
+#my_partner{
+  background-color: #F3F5F9;
+}
+#my_partner,
+#my_partner h3{
+  font-size: 1.2rem;
+}
+/* fine regole sezione dei partner */
+
+/* regole per la sezione deploy */
+
+#my_deploy h5{
+  line-height: 2rem;
+}
+#my_deploy li{
+  width:80px;
+  height: 40px;
+  padding-left: 1rem;
+  border-left: 1px solid #697795;
+  margin-right: calc(100%-80px);
+}
+#my_deploy li>a {
+  line-height: 40px;
+  color: #697795;
+}
+#my_deploy .my_box{
+  height: 150px;
+}
+
+/* fine regole per la sezione deploy */
+
+/* regole sezione designed  */
+#my_designed{
+  background-color: #F3F5F9;
+}
+#my_designed .my_screenshot{
+  width: 100%;
+}
+#my_designed h5{
+  line-height: 2rem;
+}
+#my_designed i.fa {
+  margin-top: 150px;
+}
+/* fine regole sezione designed  */
+
+/* regole sezione features  */
+#my_features .my_box{
+  margin-top: 30px;
+}
+
+/* fine regole sezione features  */
+
+/* regole sezione features  */
+
+#my_features {
+  background-image: url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
+}
+
+/* fine regole sezione features  */
 
 /* regole per i button */
 
-.my_button{
+my_button{
   color: #046fff;
   border: 1px solid #046fff;
 }
@@ -98,11 +164,29 @@ header .navbar li{
 .text_white {
   color:white;
 }
-.color-primary{
+.color-first{
   color: #031c4e;
 }
-.color-secondary{
+.color-two{
   color: #046fff;
+}
+.color-three{
+  color: #697795;
+}
+.padding_vert_50{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.box_center:before{
+  content: '\200B';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.item_center{
+  display: inline-block;
+  vertical-align: middle;
 }
 /* fine regole helper */
 
