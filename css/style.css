@@ -90,29 +90,30 @@ header .navbar li{
 
 /* fine regole per la sezione deploy */
 
-/* regole sezione designed  */
-#my_designed{
+/* regole sezione designed e my_development  */
+#my_designed,
+#my_development{
   background-color: #F3F5F9;
 }
-#my_designed .my_screenshot{
-  width: 100%;
+#my_designed .my_screenshot,
+#my_development .my_screenshot{
+  width: 85%;
+  margin: 0.6rem;
+
 }
-#my_designed h5{
+#my_designed h5,
+#my_development h5{
   line-height: 2rem;
 }
-#my_designed i.fa {
-  margin-top: 150px;
+#my_designed i{
+  font-size: 2rem;
 }
-/* fine regole sezione designed  */
+/* fine regole sezione designed e develompent  */
 
 /* regole sezione features  */
 #my_features .my_box{
   margin-top: 30px;
 }
-
-/* fine regole sezione features  */
-
-/* regole sezione features  */
 
 #my_features {
   background-image: url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
@@ -120,9 +121,61 @@ header .navbar li{
 
 /* fine regole sezione features  */
 
+/* regole sezione services  */
+
+#my_service{
+  background-image: linear-gradient(#0048c6,#001e9a);
+}
+#my_service .riga_service{
+  line-height: 3rem;
+}
+#my_service .riga_service:not(.last){
+  border-bottom: 1px solid white;
+}
+#my_service .riga_service a:hover{
+  color: #046fff;
+}
+#my_service [class*='col-'] .last{
+  margin-bottom: 2.5rem;
+}
+/* fine regole sezione services  */
+
+/* regole sezione get started */
+
+#my_get_started {
+  background-image: linear-gradient(#0048c6,#001e9a);
+}
+
+/* fine regole sezione get started */
+
+/* regole footer */
+
+footer {
+  background-color:  #031c4e;
+  color: #7a859d;
+  font-size: 1.2rem;
+}
+
+footer .icona_ocean{
+  width: 40px;
+}
+footer .box_link_footer .title_link_footer{
+  font-size: 1.3rem;
+}
+
+footer .social-contact i{
+  font-size: 2rem;
+}
+footer ul li a{
+  line-height: 2.5rem;
+  color: #7a859d;
+}
+
+/* fine regole footer */
+
 /* regole per i button */
 
-my_button{
+.my_button{
   color: #046fff;
   border: 1px solid #046fff;
 }
@@ -173,6 +226,9 @@ my_button{
 .color-three{
   color: #697795;
 }
+.color-four{
+  color: #00d5d1;
+}
 .padding_vert_50{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -188,6 +244,7 @@ my_button{
   display: inline-block;
   vertical-align: middle;
 }
+
 /* fine regole helper */
 
 /* classi debug */
