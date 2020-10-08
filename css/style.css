@@ -129,6 +129,9 @@ header .navbar li{
 #my_service .riga_service{
   line-height: 3rem;
 }
+#my_service .riga_service [class='col-xs-4']{
+  text-align: right
+}
 #my_service .riga_service:not(.last){
   border-bottom: 1px solid white;
 }
